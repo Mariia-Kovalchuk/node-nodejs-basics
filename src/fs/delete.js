@@ -1,5 +1,4 @@
-import { unlink } from 'fs/promises';
-import { readdir } from 'fs/promises';
+import { unlink, readdir } from 'fs/promises';
 
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';

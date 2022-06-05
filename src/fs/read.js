@@ -1,5 +1,4 @@
-import { readFile } from 'fs/promises';
-import { readdir } from 'fs/promises';
+import { readFile, readdir } from 'fs/promises';
 
 
 import { dirname } from 'path';

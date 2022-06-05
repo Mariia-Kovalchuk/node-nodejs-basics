@@ -1,5 +1,4 @@
-import { rename as renameFsPromise } from 'fs/promises';
-import { readdir } from 'fs/promises';
+import { rename as renameFsPromise, readdir } from 'fs/promises';
 
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
