@@ -12,7 +12,8 @@
     "fs:read": "node src/fs/read",
     "fs:list": "node src/fs/list",
     "cli:parseEnv": "node src/cli/env.js",
-    "cli:parseArgs": "node src/cli/args.js --propName value --prop2Name value2"
+    "cli:parseArgs": "node src/cli/args.js --propName value --prop2Name value2",
+    "modules": "node src/modules/cjsToEsm.mjs"
   },
   "repository": {
     "type": "git",
