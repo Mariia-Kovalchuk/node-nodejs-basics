@@ -10,7 +10,9 @@
     "fs:rename": "node src/fs/rename",
     "fs:delete": "node src/fs/delete",
     "fs:read": "node src/fs/read",
-    "fs:list": "node src/fs/list"
+    "fs:list": "node src/fs/list",
+    "cli:parseEnv": "node src/cli/env.js",
+    "cli:parseArgs": "node src/cli/args.js --propName value --prop2Name value2"
   },
   "repository": {
     "type": "git",
